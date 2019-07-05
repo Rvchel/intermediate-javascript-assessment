@@ -13,7 +13,14 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
-
+function callBinding(magicAnimals, updateAnimal, id) {
+    // for (var i = 0; i < magicAnimals.length; i++) {
+    //     if(magicAnimals[i] == id) {
+    //         var trog = updateAnimal('Trogdor').bind(magicAnimals[i])
+    //     }
+    // }
+    // return trog
+}
 
 
 // *************
@@ -28,7 +35,9 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
+function applyBinding(magicAnimals, updateAnimal, id) {
 
+}
 
 
 // *************
@@ -48,7 +57,9 @@
 var foo;
 
 // CODE HERE...
+function promiseMe($q) {
 
+}
 
 
 // *************
@@ -64,3 +75,6 @@ var foo;
 // and then resolve the array as you complete your promise.
 
 // CODE HERE...
+function emailList($q, $http) {
+
+}
